@@ -1,0 +1,19 @@
+{
+  "name": "tsplayground",
+  "version": "1.0.0",
+  "description": "Typescript examples",
+  "main": "index.ts",
+  "author": "mohammedmagdy",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.3"
+  },
+  "scripts": {
+    "start": "npx nodemon ./index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.21",
+    "ts-node": "^10.9.1"
+  }
+}
